@@ -5,4 +5,40 @@
 √ Would you like to use App Router? (recommended) ...Yes
 √ Would you like to customize the default import alias (@/*)? ... No
 
-add default code to the globals.css.
+add default code to the app/globals.css.
+update the app/page.tsx files (keep in minde you will need the main tag)
+>> npm run dev
+in root, create a components folder
+add Navbar.jsx and navbar.module.css - this is how you apply styles directly to a component.
+add the navbar to the body of the app/layout folder.
+
+generate app/about and app/contact
+these dir names should be lower case. each 
+needs a page.tsx file 
+
+use page groups (foldername) to seperate out sections of application. like have a section for auth and another for dashboard.
+
+
+client side routing:
+parallel routes
+intercepting routes
+api routes
+
+Task:
+create a complete routing structure for an e-commerce project using
+different routes.
+
+Home page: "/"
+productuct listing page: "/products"
+product detail page: "/products/{productId}"
+shopping cart page: "/cart"
+Checkout page: "/checkout"
+Order confirmation page: "/order/{orderID}"
+User account page: "/account"
+Login page: "/login"
+Registration page: "/register"
+Search results page: "/search?q={searchQuery}"
+
+1. Explain how Next.js routing differs from React.js routing?
+2. What is the purpose of route groups, and how can they be created in Next.js?
+3. What is a dynamic route, and why should we create dynamic routes in web applications?

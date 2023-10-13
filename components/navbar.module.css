@@ -1,0 +1,31 @@
+.navbar {
+    width: 100%;
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.navbar__links {
+  flex: 1;
+  list-style: none;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__links li {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.navbar__links li:hover,
+.navbar__links li:active {
+  color: orange;
+}
